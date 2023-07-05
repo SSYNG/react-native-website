@@ -386,7 +386,7 @@ const Cat = (props) => {
 />
 ```
 
-现在当用户点击按钮时，`onPress`函数会被触发，从而调用`setIsHungry(false)`。此时状态变量`isHungry`就被设为了`false`。当`isHungry`为 false 的时候，`Button`的`disabled`属性就变成了`true` ，其`title`也相应变化：
+现在当用户点击并松开按钮后，`onPress`函数会被触发，从而调用`setIsHungry(false)`。此时状态变量`isHungry`就被设为了`false`。当`isHungry`为 false 的时候，`Button`的`disabled`属性就变成了`true` ，其`title`也相应变化：
 
 ```jsx
 <Button
